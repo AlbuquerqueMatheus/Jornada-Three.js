@@ -29,7 +29,7 @@ Durante essa jornada, abordaremos:
 
 1. Clone o repositório:
    ```bash
-   git clone
+   git clone git@github.com:AlbuquerqueMatheus/Jornada-Three.js.git
    ```
 2. Instale as dependências:
    ```bash
