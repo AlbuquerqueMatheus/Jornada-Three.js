@@ -107,7 +107,7 @@ Combinam expressões booleanas:
 
 ### Exemplo:
 ```javascript
-let resultado = (10 > 5) && (8 < 12); // true
+let resultado = (10 > 5) && (8 > 12); // false
 let inverso = !(10 < 5);              // true
 ```
 

@@ -10,7 +10,7 @@ Em JavaScript, **vetores**, também conhecidos como **arrays**, são estruturas 
 
 ### Exemplo de Array:
 ```javascript
-let frutas = ["Maçã", "Banana", "Laranja"];
+let frutas = ["Maçã", "Banana", "Banana", "Laranja"," uva"];
 ```
 Nesse exemplo, o array `frutas` armazena três elementos: "Maçã", "Banana" e "Laranja". Cada elemento é acessado por um índice numérico, começando em 0.
 
@@ -48,7 +48,7 @@ frutas.shift(); // Remove "Manga"
 - **`indexOf()`**: Retorna o índice da primeira ocorrência de um valor. Se o valor não for encontrado, retorna `-1`.
   
 ```javascript
-let indice = frutas.indexOf("Banana"); // 1
+let indice = frutas.indexOf("Banana"); // 2
 ```
 
 ### 4. **Iterar sobre Arrays**:

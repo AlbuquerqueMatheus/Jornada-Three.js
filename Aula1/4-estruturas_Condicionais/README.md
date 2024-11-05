@@ -32,14 +32,16 @@ As **estruturas de decisão** em JavaScript são usadas para escolher entre dife
 Essas estruturas permitem múltiplas verificações de condições em sequência.
 
 ```javascript
-let nota = 85;
+let nota = 90;
 
 if (nota >= 90) {
   console.log("Aprovado com excelência!");
 } else if (nota >= 70) {
   console.log("Aprovado.");
-} else {
+} else if{
   console.log("Reprovado.");
+}else{
+
 }
 ```
 Aqui, o código verifica várias condições usando `else if`. Dependendo da nota, diferentes mensagens serão exibidas.
@@ -48,7 +50,7 @@ Aqui, o código verifica várias condições usando `else if`. Dependendo da not
 O `switch` é outra estrutura de decisão que é usada quando você tem várias opções possíveis e deseja comparar um valor com vários casos diferentes.
 
 ```javascript
-let cor = "vermelho";
+let cor = "azul";
 
 switch (cor) {
   case "vermelho":
